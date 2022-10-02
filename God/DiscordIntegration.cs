@@ -30,7 +30,7 @@ namespace God {
 		}
 
 		private async Task Connect() {
-			await _client.Connect("Mjc0NDcyOTUwMDYzODI0ODk4.C2ymdA.UF8g4pvc6mSP8O54CaYfrtQ9VtM", TokenType.Bot);
+			await _client.Connect("ENTER TOKEN HERE", TokenType.Bot);
 
 			var voiceChannel = _client.FindServers("gay").FirstOrDefault().FindChannels("suh dude").FirstOrDefault(); // Finds the first VoiceChannel on the server 'Music Bot Server'
 
